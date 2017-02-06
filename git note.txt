@@ -1,0 +1,31 @@
+git init   初始化一个仓库
+
+git clone  +仓库地址   克隆一个仓库
+
+git add .  添加所有文件     git add -A 所有修改都会被添加这个需要配置~/.gitconfig全局文件
+
+git status 查看状态 
+
+git diff  查看添加和删除的内容
+
+git log -p  查看历史版本
+
+git reset HEAD +文件名  在暂存区会推倒工作区
+
+git remote -v 查看上传位置
+
+checkout -b gh-pages 分支名  切换上传分支
+
+git commit -m "提交信息"
+
+git branch  查看分支   * master  代表当前分支
+
+git checkout -b idea   创建一个新分支
+
+git checkout master    不需要加 -b 切换回已有分支
+
+git branch -D 分支名（idea）  删除一个分支（本地的分支）
+
+git push origin :idea  删除github 网站上的分支
+
+git push -u origin master 将文件上传到网上  之后会提示输入用户名和密码
