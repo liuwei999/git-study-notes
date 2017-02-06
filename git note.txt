@@ -37,6 +37,6 @@ git checkout master
 
 git merge 想要合并的分支名(idea)  这样就会把分支的代码合并到主分支之上
 
-
+git checkout +版本号    回退历史版本
 
 要修改分支上的代码要先切换到当前分支在做修改这样就不会污染到主分支的代码
