@@ -29,3 +29,14 @@ git branch -D 分支名（idea）  删除一个分支（本地的分支）
 git push origin :idea  删除github 网站上的分支
 
 git push -u origin master 将文件上传到网上  之后会提示输入用户名和密码
+
+
+合并分支 步骤   首先切换回主分支之上
+
+git checkout master
+
+git merge 想要合并的分支名(idea)  这样就会把分支的代码合并到主分支之上
+
+
+
+要修改分支上的代码要先切换到当前分支在做修改这样就不会污染到主分支的代码
